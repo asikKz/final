@@ -1,0 +1,12 @@
+.myInput {
+    width: 100%;
+    padding: 8px 20px; /* match the padding of .myBtn */
+    margin: 5px 0;
+    border: 1px solid teal;
+    border-radius: 4px; /* match the border-radius of .myBtn */
+    transition: border-color 0.3s ease; /* add a smooth transition for border color */
+}
+
+.myInput:hover {
+    border-color: #00796b; /* change border color on hover */
+}

@@ -1,0 +1,27 @@
+.my-pots-container {
+    padding: 20px;
+}
+
+.my-pots-item {
+    margin-bottom: 30px;
+}
+
+.my-pots-image-container {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.my-pots-image-container:hover {
+    transform: scale(1.1);
+}
+
+.my-pots-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

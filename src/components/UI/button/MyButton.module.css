@@ -1,0 +1,14 @@
+.myBtn {
+    padding: 8px 20px;
+    color: #fff; /* белый цвет текста */
+    font-size: 16px;
+    background-color: teal;
+    border: 1px solid teal;
+    border-radius: 4px; /* скругленные углы */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* плавное изменение цвета фона */
+}
+
+.myBtn:hover {
+    background-color: #00796b;
+}
